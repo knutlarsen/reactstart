@@ -1,0 +1,125 @@
+/* APP.JS */
+
+.pageHeader {
+    width: 95%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgba(97, 155, 13, 0.24);
+}
+
+.cruzVerde {
+    width: 80px;
+    height: 80px;
+}
+
+.headerList {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0px;
+    width: calc(100% - 80px);
+}
+
+.headerList > li {
+    cursor: pointer;
+}
+
+/* PRODUCT.JS */
+
+.bodyPage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: calc(25% - 20px);
+    height: 400px;
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+.cardHeader {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.imageBoxContainer {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.imageBox {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.image {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+}
+
+.infoList {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.priceAndBuy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy {
+    padding: 5px 30px;
+    background-color: rgba(97, 155, 13, 0.24);
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.deliveryTime {
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.pageFooter {
+    width: 95%;
+    height: 30px;
+    background-color: rgba(97, 155, 13, 0.24);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
